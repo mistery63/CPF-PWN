@@ -33,7 +33,7 @@ print """\033[91m
 
 \033[0m"""
 
-cpf = raw_input('\033[93mCPF da vitima: \033[93m')
+cpf = raw_input('\033[93mCPF da vitima:712.959.011-45\033[93m')
 
 # API
 req = requests.get("http://dabsistemas.saude.gov.br/sistemas/sadab/js/buscar_cpf_dbpessoa.json.php?cpf="+str(cpf))
